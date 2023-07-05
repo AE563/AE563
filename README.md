@@ -1,39 +1,29 @@
-### Hi there 👋
+<h1 align="center">Hi there 👋</h1>
 
-<!--
-**AE563/AE563** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
->[!example]-
->```python
->Women.objects.filter(pk__gte=2)
->```
 
 ```python
-Class_name.objects.filter(field_name__gte=value)[[prev](https://octo-ring.com/p/hedyhli/prev)]
+class MySelf:
+    name = 'Ivan'
+    surname = 'Zhilnikov'
+    gender = 'male'
+    age = 33
+    studying = ['Python', 'Django', 'Flask', 'SQL', 'HTML', 'CSS', 'Rest API', 'Git', 'Linux']
+    books = ['Grokking Algorithms', 'Code Complete']
+    course = 'hexlet.io'
+    programs = ['PyCharm', 'Obsidian', 'Ubuntu', 'Postman']
+
+    def say_hello(self):
+        print("Hi, my name is", self.name, self.surname)
+        print("Gender:", self.gender)
+        print("Age:", self.age)
+        print("Studying now:", self.studying)
+        print("Reading now:", self.books)
+        print("I'm taking courses from:", self.course)
+        print("Using software:", self.programs)
+
+
+# Creating an instance of the class
+obj = MySelf()
+obj.say_hello()
+
 ```
-<form method="post" action="{% url '[rpsls_game](https://github.com/AE563)' %}">
-  {% csrf_token %}
-  <button class="my-button" type="submit" name="choice" value="Rock">Rock</button>
-  <button class="my-button" type="submit" name="choice" value="Paper">Paper</button>
-  <button class="my-button" type="submit" name="choice" value="Scissors">Scissors</button>
-  <button class="my-button" type="submit" name="choice" value="Lizard">Lizard</button>
-  <button class="my-button" type="submit" name="choice" value="Spock">Spock</button>
-</form>
-<button type="submit" name="choice" value="Spock">Spock</button>
-[[prev](https://octo-ring.com/p/hedyhli/prev)]
-
-
-[next](https://octo-ring.com/p/hedyhli/next)

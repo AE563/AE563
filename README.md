@@ -34,3 +34,6 @@ Class_name.objects.filter(field_name__gte=value)[[prev](https://octo-ring.com/p/
 </form>
 <button type="submit" name="choice" value="Spock">Spock</button>
 [[prev](https://octo-ring.com/p/hedyhli/prev)]
+
+
+[next](https://octo-ring.com/p/hedyhli/next)

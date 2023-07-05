@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+>[!example]-
+>```python
+>Women.objects.filter(pk__gte=2)
+>```
+
+```python
+Class_name.objects.filter(field_name__gte=value)
+```

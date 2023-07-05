@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 >```
 
 ```python
-Class_name.objects.filter(field_name__gte=value)
+Class_name.objects.filter(field_name__gte=value)[[prev](https://octo-ring.com/p/hedyhli/prev)]
 ```
 <form method="post" action="{% url '[rpsls_game](https://github.com/AE563)' %}">
   {% csrf_token %}
@@ -33,3 +33,4 @@ Class_name.objects.filter(field_name__gte=value)
   <button class="my-button" type="submit" name="choice" value="Spock">Spock</button>
 </form>
 <button type="submit" name="choice" value="Spock">Spock</button>
+[[prev](https://octo-ring.com/p/hedyhli/prev)]

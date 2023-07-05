@@ -24,3 +24,11 @@ Here are some ideas to get you started:
 ```python
 Class_name.objects.filter(field_name__gte=value)
 ```
+<form method="post" action="{% url '[rpsls_game](https://github.com/AE563)' %}">
+{% csrf_token %}
+<button class="my-button" type="submit" name="choice" value="Rock">Rock</button>
+<button class="my-button" type="submit" name="choice" value="Paper">Paper</button>
+<button class="my-button" type="submit" name="choice" value="Scissors">Scissors</button>
+<button class="my-button" type="submit" name="choice" value="Lizard">Lizard</button>
+<button class="my-button" type="submit" name="choice" value="Spock">Spock</button>
+</form>

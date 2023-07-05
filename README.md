@@ -10,7 +10,7 @@ class MySelf:
     studying = ['Python', 'Django', 'Flask', 'SQL', 'HTML', 'CSS', 'Rest API', 'Git', 'Linux']
     books = ['Grokking Algorithms', 'Code Complete']
     course = 'hexlet.io'
-    programs = ['PyCharm', 'Obsidian', 'Ubuntu', 'Postman']
+    tools = ['PyCharm', 'Obsidian', 'Ubuntu', 'Postman']
 
     def say_hello(self):
         print("Hi, my name is", self.name, self.surname)
@@ -19,7 +19,7 @@ class MySelf:
         print("Studying now:", self.studying)
         print("Reading now:", self.books)
         print("I'm taking courses from:", self.course)
-        print("Using software:", self.programs)
+        print("Using tools:", self.tools)
 
 
 # Creating an instance of the class

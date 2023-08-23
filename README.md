@@ -7,7 +7,7 @@ class MySelf:
     surname = 'Zhilnikov'
     gender = 'male'
     age = 33
-    studying = ['Python', 'Django', 'SQL', 'PyTest', 'CI', 'HTML', 'CSS', 'Rest API', 'Git', 'Linux']
+    studying = ['Python', 'Django', 'SQL', 'PyTest', 'CI/CD', 'HTML', 'CSS', 'Rest API', 'Git', 'Linux']
     books = ['Grokking Algorithms', 'Code Complete']
     course = 'hexlet.io'
     tools = ['PyCharm', 'Obsidian', 'Ubuntu', 'Postman']
